@@ -9,7 +9,10 @@ elif operation == '-':
 elif operation == '*':
     print(f'{num_1} * {num_2} =', num_1 * num_2)
 elif operation == '/':
-    print(f'{num_1} / {num_2} =', num_1 / num_2)
+    if num_2 == 0:
+        print('Your denominator = 0, this is incorrect! Rewrite your numbers!')
+    else:
+        print(f'{num_1} / {num_2} =', num_1 / num_2)
 else:
     print('You chose wrong operation! Try again!')
 
