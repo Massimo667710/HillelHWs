@@ -12,3 +12,4 @@ elif operation == '/':
     print(f'{num_1} / {num_2} =', num_1 / num_2)
 else:
     print('You chose wrong operation! Try again!')
+
