@@ -15,8 +15,6 @@ def is_palindrome(text):
 
     # return new_text == final_text
 
-    # Дізнався що можна так ще перевірити на True/False без if
-
 
 assert is_palindrome('A man, a plan, a canal: Panama') == True, 'Test1'
 assert is_palindrome('A man, a plan, a canal: Panama') == True, 'Test1'
