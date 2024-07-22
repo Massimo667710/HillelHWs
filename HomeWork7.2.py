@@ -1,5 +1,5 @@
 def correct_sentence(text):
-    if text.islower():
+    if text[0].islower():
         text = text[0].upper() + text[1:]
 
     if text[-1] != '.':
