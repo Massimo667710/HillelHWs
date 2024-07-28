@@ -1,4 +1,4 @@
-def first_word(text):
+def first_word(text: str) -> str:
     cleaned_text = ''.join([char if char.isalnum() or char in "' " else ' ' for char in text])
 
     words = cleaned_text.split()
